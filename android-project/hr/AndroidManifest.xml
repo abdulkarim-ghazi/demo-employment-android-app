@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowJobOffers"
+            android:label="@string/title_activity_show_job_offers" >
+        </activity>
+        <activity
+            android:name=".Add_Job"
+            android:label="@string/title_activity_add__job" >
+        </activity>
+        <activity
+            android:name=".Add_Company"
+            android:label="@string/title_activity_add__company" >
+        </activity>
+        <activity
+            android:name=".Candidate_Signup"
+            android:label="@string/title_activity_candidate__signup" >
+        </activity>
+        <activity
+            android:name=".Signup_Candidate"
+            android:label="@string/title_activity_signup__candidate" >
+        </activity>
+        <activity
+            android:name=".Add_candidate_certificate"
+            android:label="@string/title_activity_add_candidate_certificate" >
+        </activity>
+        <activity
+            android:name=".Jops_Suitable_For_You"
+            android:label="@string/title_activity_jops__suitable__for__you" >
+        </activity>
+        <activity
+            android:name=".SuitableCandates"
+            android:label="@string/title_activity_suitable_candates" >
+        </activity>
+        <activity
+            android:name=".Sbvnmb"
+            android:label="@string/title_activity_sbvnmb" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+</manifest>
